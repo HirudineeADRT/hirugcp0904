@@ -1,0 +1,118 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "85cdcad9-f794-4d86-85c5-60fc93da5066": {
+        "id": "85cdcad9-f794-4d86-85c5-60fc93da5066",
+        "parent": null,
+        "name": "hirugcp0904.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hirugcp0904.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python37",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "hirugcp0904"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "1ef4f096-1b0d-4153-91dc-88c826118af0": {
+        "id": "1ef4f096-1b0d-4153-91dc-88c826118af0",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "d73e0fe9-65af-46a2-97ad-b10f6b433db6": {
+        "id": "d73e0fe9-65af-46a2-97ad-b10f6b433db6",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "48814f39-415d-40d0-bf3f-97ee9fd81a97": {
+        "id": "48814f39-415d-40d0-bf3f-97ee9fd81a97",
+        "parent": null,
+        "name": "testgap123.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testgap123.py",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python37",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "testgap123"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "85cdcad9-f794-4d86-85c5-60fc93da5066",
+      "48814f39-415d-40d0-bf3f-97ee9fd81a97"
+    ],
+    "currentFileId": "48814f39-415d-40d0-bf3f-97ee9fd81a97",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hirugcp0904",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1586410061987
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hirugcp0904",
+      "url": "https://github.com/HirudineeADRT/hirugcp0904"
+    }
+  }
+}
