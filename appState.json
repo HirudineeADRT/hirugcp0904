@@ -19,14 +19,23 @@
           "timeout": 60,
           "memory": 128,
           "triggerType": 0,
-          "name": "hirugcp0904"
+          "name": "hirugcp0904edit"
         },
         "triggers": [
           {
             "resourceName": "http-trigger",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "2cc7106f-8f02-44b2-ac7c-0b73c6a3f29b": {
+            "id": "2cc7106f-8f02-44b2-ac7c-0b73c6a3f29b",
+            "name": "Test event",
+            "functionId": "85cdcad9-f794-4d86-85c5-60fc93da5066",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       },
       "1ef4f096-1b0d-4153-91dc-88c826118af0": {
         "id": "1ef4f096-1b0d-4153-91dc-88c826118af0",
@@ -74,13 +83,23 @@
             "config": {}
           }
         ]
+      },
+      "687aa89f-c29a-4ffc-946a-1373268a373d": {
+        "id": "687aa89f-c29a-4ffc-946a-1373268a373d",
+        "parent": null,
+        "name": "firstdir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "firstdir"
       }
     },
     "openFiles": [
       "85cdcad9-f794-4d86-85c5-60fc93da5066",
       "48814f39-415d-40d0-bf3f-97ee9fd81a97"
     ],
-    "currentFileId": "48814f39-415d-40d0-bf3f-97ee9fd81a97",
+    "currentFileId": "85cdcad9-f794-4d86-85c5-60fc93da5066",
     "resources": {
       "http-trigger": {
         "name": "http-trigger",
@@ -89,9 +108,11 @@
       }
     },
     "customTemplate": {
-      "overrideDefault": false,
-      "dialect": null,
-      "definitions": null
+      "dialect": "Deployment Manager",
+      "definitions": {
+        "resources": {}
+      },
+      "overrideDefault": true
     },
     "envVariables": [],
     "packageJSON": {
@@ -106,7 +127,7 @@
     "platform": "GCP",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1586410061987
+    "lastSave": 1586411343287
   },
   "VCS_STATE": {
     "provider": "GitHub",
